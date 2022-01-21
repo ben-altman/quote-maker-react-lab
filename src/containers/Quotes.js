@@ -12,7 +12,7 @@ class Quotes extends Component {
       return <QuoteCard 
         key={quote.id}
         quote={quote}
-        votes={0}
+        // votes={0}
         removeQuote={this.props.removeQuote}
         upvoteQuote={this.props.upvoteQuote}
         // content={quote.content}
